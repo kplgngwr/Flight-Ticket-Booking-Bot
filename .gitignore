@@ -1,0 +1,389 @@
+# FlightBot - AI-Powered Flight Booking Assistant
+# .gitignore file for Node.js project with MongoDB
+
+# =============================================================================
+# Dependencies
+# =============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# =============================================================================
+# Environment Variables & Configuration
+# =============================================================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+config/secrets.js
+config/keys.js
+config/database.js
+*.env
+
+# =============================================================================
+# Runtime & Logs
+# =============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# =============================================================================
+# Build & Distribution
+# =============================================================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Production build files
+public/build/
+public/dist/
+
+# =============================================================================
+# Database & Storage
+# =============================================================================
+# MongoDB data files
+data/
+db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Session storage
+sessions/
+session-store/
+
+# Upload directories
+uploads/
+public/uploads/
+temp-uploads/
+
+# =============================================================================
+# Development Tools
+# =============================================================================
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ESLint cache
+.eslintcache
+.prettierCache
+
+# TypeScript
+*.tsbuildinfo
+
+# =============================================================================
+# Testing
+# =============================================================================
+# Test outputs
+test-results/
+coverage/
+.nyc_output/
+junit.xml
+
+# Jest
+coverage/
+*.lcov
+
+# =============================================================================
+# OS Generated Files
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# Security & Certificates
+# =============================================================================
+# SSL certificates
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# API keys and secrets
+secrets/
+keys/
+*.key
+*.secret
+
+# =============================================================================
+# Temporary Files
+# =============================================================================
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*.rej
+*.old
+
+# =============================================================================
+# Package Managers
+# =============================================================================
+# npm
+.npm
+npm-debug.log*
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =============================================================================
+# Development & Debugging
+# =============================================================================
+# Debug files
+.debug/
+
+# Local development
+.local
+.cache
+
+# PM2
+ecosystem.config.js
+.pm2/
+
+# =============================================================================
+# Docker & Containerization
+# =============================================================================
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# =============================================================================
+# Service Worker & PWA
+# =============================================================================
+# Service Worker cache
+sw-cache/
+sw-cache-*/
+
+# PWA files
+manifest.json
+sw.js
+workbox-*.js
+
+# =============================================================================
+# FlightBot Specific
+# =============================================================================
+# Flight data cache
+flight-cache/
+flight-data/
+
+# Booking backups
+booking-backups/
+booking-exports/
+
+# Chat logs (if stored locally)
+chat-logs/
+conversation-logs/
+
+# User uploads
+user-uploads/
+profile-pictures/
+
+# Email templates (if customized)
+email-templates/
+templates/
+
+# =============================================================================
+# Monitoring & Analytics
+# =============================================================================
+# Log files
+*.log
+logs/
+
+# Analytics
+analytics/
+stats/
+
+# =============================================================================
+# Backup & Archive
+# =============================================================================
+# Archive files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Database dumps
+*.dump
+*.sql
+*.backup
+
+# =============================================================================
+# Development Scripts
+# =============================================================================
+# Local scripts
+scripts/local/
+dev-scripts/
+
+# =============================================================================
+# Documentation Build
+# =============================================================================
+docs/build/
+docs/_build/
+site/
+
+# =============================================================================
+# Performance & Profiling
+# =============================================================================
+# Profiling files
+*.cpuprofile
+*.heapprofile
+
+# Performance monitoring
+perf/
+profiles/
+
+# =============================================================================
+# Git
+# =============================================================================
+# Git hooks (if custom)
+.git/hooks/
+hooks/
+
+# =============================================================================
+# Misc
+# =============================================================================
+# Lock files (keep package-lock.json for consistency)
+# yarn.lock
+
+# Local configuration overrides
+config/local.js
+config/local.json
+
+# Development database
+dev.db
+test.db
+
+# =============================================================================
+# FlightBot Project Specific
+# =============================================================================
+# Mock data (if generated)
+mock-data/
+sample-data/
+
+# Test flight data
+test-flights/
+test-bookings/
+
+# Development certificates
+dev-certs/
+ssl/
+
+# Local MongoDB data
+mongodb-data/
+mongo-data/
+
+# Socket.io debug
+socket-debug.log
+
+# Chat session storage
+chat-sessions/
+session-data/
+
+# User preferences cache
+user-preferences/
+preferences-cache/
+
+# Flight search cache
+search-cache/
+flight-cache/
+
+# Booking confirmations
+booking-confirmations/
+e-tickets/
+
+# Email queue
+email-queue/
+mail-queue/
+
+# Rate limiting data
+rate-limit-data/
+throttle-data/
+
+# =============================================================================
+# Production Specific
+# =============================================================================
+# Production logs
+prod-logs/
+production-logs/
+
+# Backup directories
+backups/
+daily-backups/
+weekly-backups/
+
+# Monitoring data
+monitoring/
+metrics/
+health-checks/
+
+# =============================================================================
+# End of .gitignore
+# =============================================================================
