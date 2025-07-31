@@ -76,7 +76,7 @@ A modern, intelligent flight booking chatbot that revolutionizes how users searc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Flight-Ticket-Booking-Bot.git
+   git clone https://github.com/kplgngwr/Flight-Ticket-Booking-Bot.git
    cd Flight-Ticket-Booking-Bot
    ```
 
